@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Accueil</title>
+</head>
+<body>
+    <p>Welcome, <span th:text="${#authentication.principal.username}"></span>!</p>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Déconnexion</button>
+    </form>
+</body>
+</html>

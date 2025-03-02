@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur notre application</h1>
+</header>
+
+<main class="container">
+    <div class="main-content">
+        <div class="sidebar">
+            <h2>Informations supplémentaires</h2>
+            <p>Exemple de sidebar avec des infos utiles.</p>
+        </div>
+        <div class="content">
+            <h2>Page de connexion</h2>
+            <form th:action="@{/login}" method="post">
+                <div class="form-group">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input type="text" id="username" name="username" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required />
+                </div>
+                <button type="submit" class="button">Se connecter</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Rakotonirina Tahina Fanomezantsoa</p>
+    <p>tahinarkt123@gmail.com 0347687762</p>
+</footer>
+
+</body>
+</html>
