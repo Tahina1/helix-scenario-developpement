@@ -29,6 +29,10 @@
                     <label for="password">Mot de passe</label>
                     <input type="password" id="password" name="password" required />
                 </div>
+                <div>
+                    <p class="error" th:if="${param.error}">Nom d'utilisateur ou mot de passe incorrect.</p>
+                    <p class="disconnected" th:if="${param.logout}">Déconnexion réussie.</p>
+                </div>
                 <button type="submit" class="button">Se connecter</button>
             </form>
         </div>
@@ -36,9 +40,9 @@
 </main>
 
 <footer>
-    <p>&copy; 2025 Rakotonirina Tahina Fanomezantsoa</p>
-    <p>tahinarkt123@gmail.com 0347687762</p>
+    <p>&copy; 2025 Tahina</p>
 </footer>
 
 </body>
 </html>
+
