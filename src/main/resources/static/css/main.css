@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-/* Définition des couleurs, polices et autres variables */
 :root {
     --primary-color: #007bff;
     --secondary-color: #f1f1f1;
@@ -16,7 +15,6 @@
     --background-color: #fff;
 }
 
-/* Corps de la page */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -24,13 +22,11 @@ body {
     color: var(--font-color);
 }
 
-/* Liens */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Conteneur principal */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -53,7 +49,6 @@ footer {
     font-size: 14px;
 }
 
-/* Layout principal */
 .main-content {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -72,7 +67,7 @@ footer {
     padding: 20px;
 }
 
-/* Formulaire */
+
 .form-group {
     margin-bottom: 1rem;
 }
@@ -92,7 +87,6 @@ label {
     display: block;
 }
 
-/* Boutons */
 .button {
     width: 100%;
     padding: 10px 20px;
@@ -109,7 +103,6 @@ label {
     background-color: var(--accent-color);
 }
 
-/* Formulaire de connexion */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -123,3 +116,6 @@ form {
     color: #007bff;
 }
 
+.dk {
+    margin-top: 5%;
+}

@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
 </head>
 <body>
-    <p>Welcome, <span th:text="${#authentication.principal.username}"></span>!</p>
-    <form th:action="@{/logout}" method="post">
-        <button type="submit">Déconnexion</button>
-    </form>
+
+<header>
+    <h1>Bienvenue sur notre Application</h1>
+</header>
+
+<main class="container">
+    <div class="main-content">
+        <div class="sidebar">
+            
+        </div>
+        <div class="content">
+            <h2>Bienvenue, <span th:text="${#authentication.principal.username}"></span>!</h2>
+            <p>Nous sommes heureux de vous avoir parmi nous. Explorez notre plateforme et profitez des fonctionnalités disponibles.</p>
+            <hr/>
+            <form th:action="@{/logout}" method="post">
+                <button type="submit" class="button dk">Déconnexion</button>
+            </form>
+        </div>
+    </div>
+</main>
+
 </body>
 </html>
