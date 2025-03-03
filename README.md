@@ -10,7 +10,7 @@ Cette application n'inclue pas l'inscription (non mentionné dans la description
 
 - **Java/Spring boot** : pour la partie Backend
 - **Thymeleaf** : pour la partie Frontend (intégré à Spring en MVC ici)
-- **MySQL** : pour la partie Frontend
+- **MySQL** : pour la partie Base de donnée
 
   
 ## Prérequis
