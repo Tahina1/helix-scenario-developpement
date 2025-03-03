@@ -8,7 +8,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 public class ScenarioDevAppApplication {
 
 	public static void main(String[] args) {
-		System.out.println("AAAAAAAAAAA");
+		System.out.println("README: password is encoded as: ");
 		System.out.println(new BCryptPasswordEncoder().encode("password"));
 		SpringApplication.run(ScenarioDevAppApplication.class, args);
 	}
