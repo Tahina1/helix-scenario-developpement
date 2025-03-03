@@ -1,4 +1,4 @@
-# Application Spring Security - Documentation
+# Interface de connexion avec Spring Security - Documentation
 
 Ce projet implémente une configuration de sécurité de base avec Spring Security pour une application web. Il inclut une gestion des utilisateurs, des rôles, des pages de connexion et de déconnexion, ainsi qu'une redirection vers la page de connexion si un utilisateur tente d'accéder à des pages protégées sans être authentifié.
 
