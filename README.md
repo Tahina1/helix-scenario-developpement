@@ -40,11 +40,13 @@ Cette application n'inclue pas l'inscription (non mentionné dans la description
 2. **Démarrer l'application** :
    - Ouvrez votre navigateur et accédez à l'adresse http://localhost:8080
 
-   -Il y a un utilisateur de test disponible qui est admin
-   -Nom d'utilisateur:  'admin'
-   -Mot de passe: 'password' (Bcrypté $2a$10$RCa5SUPmMxleZfQLm8wAF.ZoIa82A16YzE2y0PFYzBAYIrBWsrEaW)
+   - Il y a un utilisateur de test disponible qui est admin
 
-3. **Démarrer les test** :
+   - Nom d'utilisateur:  'admin'
+     
+   - Mot de passe: 'password' (Bcrypté $2a$10$RCa5SUPmMxleZfQLm8wAF.ZoIa82A16YzE2y0PFYzBAYIrBWsrEaW)
+
+4. **Démarrer les test** :
     ```bash
     mvn test
    
