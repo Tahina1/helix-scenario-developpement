@@ -67,6 +67,7 @@ footer {
 }
 
 .content {
+    width: 80%;
     background-color: var(--background-color);
     padding: 20px;
 }
@@ -93,6 +94,7 @@ label {
 
 /* Boutons */
 .button {
+    width: 100%;
     padding: 10px 20px;
     border-radius: 5px;
     background-color: var(--primary-color);
@@ -113,13 +115,11 @@ form {
     margin: 0 auto;
 }
 
-/* Responsivité */
-@media (max-width: 768px) {
-    .main-content {
-        grid-template-columns: 1fr;
-    }
-
-    .sidebar {
-        display: none;
-    }
+.error {
+    color: red;
 }
+
+.disconnected {
+    color: #007bff;
+}
+
