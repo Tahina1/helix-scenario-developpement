@@ -17,6 +17,7 @@ public class AuthControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
+    // Test de la page de login
     @Test
     public void testLoginPage() throws Exception {
         mockMvc.perform(get("/login"))
@@ -27,7 +28,7 @@ public class AuthControllerTest {
     @Test
     public void testHomePage_RedirectIfNotAuthenticated() throws Exception {
         mockMvc.perform(get("/home"))
-            .andExpect(status().is3xxRedirection())  // Check for redirection
-            .andExpect(redirectedUrlPattern("**/login")); // Use a pattern to match the URL
-    }
+            .andExpect(status().is3xxRedirection())  // verifie la redirection
+            .andExpect(redirectedUrlPattern("**/login")); // vers la page de login
+    } 
 }
