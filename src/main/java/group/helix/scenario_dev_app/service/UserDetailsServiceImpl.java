@@ -28,9 +28,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         group.helix.scenario_dev_app.entity.User user = optionalUser.get();
 
-        return User.withUsername(user.getUsername()) // Attention ! Ceci vient de Spring Security
+        return User.withUsername(user.getUsername()) 
                    .password(user.getPassword())
-                   .roles(user.getRole()) // Les rôles doivent être en format ROLE_USER, ROLE_ADMIN...
+                   .roles(user.getRole()) 
                    .build();
     }
 }
