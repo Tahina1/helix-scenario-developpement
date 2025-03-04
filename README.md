@@ -2,7 +2,7 @@
 
 Ce projet implémente une configuration de sécurité de base avec Spring Security pour une application web. Il inclut une gestion des utilisateurs, des rôles, des pages de connexion et de déconnexion, ainsi qu'une redirection vers la page de connexion si un utilisateur tente d'accéder à des pages protégées sans être authentifié.
 
-La sécurité des mots de passe sont faites avec BackendBcrypt avec Spring et stocké de maniere que l'on peut voir dans le fichier ./helix-scenario-developpement/src/main/java/group/helix/scenario_dev_app/config/SecurityConfig.java
+La sécurité des mots de passe sont faites en Bcrypt dans Spring et stocké de maniere que l'on peut voir dans le fichier ./helix-scenario-developpement/src/main/java/group/helix/scenario_dev_app/config/SecurityConfig.java
 
 Cette application n'inclue pas l'inscription (non mentionné dans la description du test scenario), mais il y a déjà des utilisateurs disponibles par defaut (voir en dessous)
 
