@@ -52,6 +52,8 @@ Cette application n'inclue pas l'inscription (non mentionné dans la description
    - Nom d'utilisateur:  'admin'
      
    - Mot de passe: 'password' (Bcrypté $2a$10$RCa5SUPmMxleZfQLm8wAF.ZoIa82A16YzE2y0PFYzBAYIrBWsrEaW)
+   - NB: copier le mot de passe dans la console spring et updater les password dans le /helix-scenario-developpement/src/main/resources/database-schema.sql
+ car la version de BCrypt est peut etre different pour les données de test
 
 4. **Démarrer les test** :
     ```bash
