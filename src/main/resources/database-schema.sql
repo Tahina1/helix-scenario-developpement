@@ -10,8 +10,8 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password, role) VALUES
-('admin', '$2a$10$eB6KPqYUs6dhBnT4BxTqhetyRymfrp79vKbnpRj3R5XrAWNpphYg2', 'ADMIN'), -- password: password
-('user1', '$2a$10$eB6KPqYUs6dhBnT4BxTqhetyRymfrp79vKbnpRj3R5XrAWNpphYg2', 'USER');
+('admin', '$2a$10$RCa5SUPmMxleZfQLm8wAF.ZoIa82A16YzE2y0PFYzBAYIrBWsrEaW', 'ADMIN'), -- password: password
+('user1', '$2a$10$RCa5SUPmMxleZfQLm8wAF.ZoIa82A16YzE2y0PFYzBAYIrBWsrEaW', 'USER');
 
 
 
